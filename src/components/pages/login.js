@@ -2,7 +2,7 @@ import React from "react";
 
 import logo from "../../res/logo.svg";
 
-function About() {
+function Login() {
   return (
     <div>
       <div className="h-screen -my-32 pt-32 flex ">
@@ -17,4 +17,4 @@ function About() {
   );
 }
 
-export default About;
+export default Login;

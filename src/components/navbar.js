@@ -18,10 +18,18 @@ function Navbar() {
   };
 
   const buttonStyle = (pathName) => {
-    if (path === "/" + pathName) {
-      return "text-gray-100 bg-gray-900";
+    if (pathName == "login") {
+      // if the buttons pathname is login (client portal), style as client login button, else as reg navbar button
+      if (path == "/" + pathName) {
+        return "font-semibold text-gray-100 bg-gray-500";
+      }
+      return "font-semibold text-gray-700 hover:text-gray-800 hover:bg-gray-200 bg-gray-300";
+    } else {
+      if (path === "/" + pathName) {
+        return "text-gray-100 bg-gray-900";
+      }
+      return "text-gray-400 hover:text-gray-200 hover:bg-gray-700 bg-gray-800";
     }
-    return "text-gray-400 hover:text-gray-200 hover:bg-gray-700 bg-gray-800";
   };
 
   const setToggled = (isToggled) => {
@@ -69,6 +77,16 @@ function Navbar() {
             >
               <Link to="/contact-us">
                 <h4 className="mx-2 font-sm">Contact Us</h4>
+              </Link>
+            </button>
+            <button
+              className={
+                "rounded-md my-2 focus:outline-none mx-4 " +
+                buttonStyle("login")
+              }
+            >
+              <Link to="/login">
+                <h4 className="mx-2 font-sm">Client Portal</h4>
               </Link>
             </button>
           </div>
