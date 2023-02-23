@@ -50,16 +50,15 @@ function Services() {
                 promptly as it comes in, or it may be stored and metered via a
                 pre-established volume agreement. Metering of product into the
                 repair center is calculated to meet customer turn-around-time
-                requirements. All product and their repair histories may be
-                viewed through a data viewer accessible through the internet.
-                All products are scanned into the shop floor control system and
-                are verified for data integrity. Some of the data integrity
-                tests perform: date code extractions for time-in-use versus
-                warranty term limits, failure code extractions for engineering
-                analysis requirements, and other data extraction for special
-                tracking requirements and warranty void conditions. All
-                non-conforming matters are communicated to customers immediately
-                and targeted for resolution within four hours.
+                requirements. All products are scanned into the shop floor
+                control system and are verified for data integrity. Some of the
+                data integrity tests perform: date code extractions for
+                time-in-use versus warranty term limits, failure code
+                extractions for engineering analysis requirements, and other
+                data extraction for special tracking requirements and warranty
+                void conditions. All non-conforming matters are communicated to
+                customers immediately and targeted for resolution within four
+                hours.
               </p>
               <br />
               <p>
@@ -84,7 +83,6 @@ function Services() {
                   quantities
                 </li>
                 <li> Scanned and automated tracking</li>
-                <li> Status and history accessible via internet</li>
                 <li>
                   “Same-for-Same” or “Like-for-Like” processing capabilities
                 </li>
@@ -129,6 +127,7 @@ function Services() {
                 <li>Onsite warehousing services available</li>
                 <li>Packaging</li>
                 <li>Final Assembly</li>
+                <li>Subassembly</li>
               </ol>
             </div>
             <div className="flex-1 my-auto md:px-20 py-10">
@@ -265,10 +264,7 @@ function Services() {
                 to your warehousing and distribution needs. Our central location
                 in North America, which is in the manufacturing hub of El
                 Paso/Juarez, creates a strategic staging area for distribution
-                into the USA. With 50,000 square feet of readily available
-                warehouse space in El Paso and another 80,000 square feet in
-                Juarez, our customs capabilities, and our materials management
-                systems, we are capable of offering you a warehousing and
+                into the USA. We are capable of offering you a warehousing and
                 distribution solution for your just-in-time logistics, staging,
                 and domestic and international distribution needs. Innovei is
                 committed to offering you the best solution that can be obtained
